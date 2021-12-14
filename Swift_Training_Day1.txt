@@ -1,0 +1,45 @@
+// 2.1
+// Draw right triangle
+//*
+//* *
+//* * *
+//* * * *
+//* * * * *
+
+func drawRightTriangle(rows: Int = 5) {
+    // Write your code here
+    
+}
+
+
+// Draw Floyd's triangle.
+// Floyd's triangle, named after Rober Floyd, is a right angled triangle, which is made using natural numbers. It starts from 1 and consecutively selects the next greater number in sequence.
+// 1
+// 2  3
+// 4  5  6
+// 7  8  9  10
+// 11 12 13 14 15
+func drawFloydTriangle(rows: Int = 5) {
+    // Write your code here
+    
+}
+
+
+print("Test passed!")
+
+
+//2.2
+// Complete below function
+// If input has only unique letters taking letter case into account. -> return true. Otherwise, return false.
+
+func isUnique(input: String) -> Bool {
+    // Write your code here
+    
+    return true
+}
+
+
+assert(isUnique(input: "ThIsIsNOTUniqueString") == false)
+assert(isUnique(input: "QqWwEeRr") == true)
+assert(isUnique(input: "QQWwEeRR") == false)
+print("Test passed!")
